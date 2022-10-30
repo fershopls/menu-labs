@@ -4,9 +4,9 @@
     <div class="bg-red-100 bg-fixed bg-cover absolute inset-0" :style="{
       backgroundImage: `url('https://www.eltiempo.com/files/image_1200_680/uploads/2021/04/15/6078c68c2f49b.jpeg')`,
     }"></div>
-    <div class="inset-0 absolute backdrop-blur-sm bg-black/40"></div>
-
     <!-- BG BACKDROP -->
+    <div class="inset-0 absolute backdrop-blur-3xl bg-black/50 backdrop-saturate-150"></div>
+
     <div class="text-gray-700  mx-auto md:max-w-lg bg-white md:shadow-xl relative">
       <div class="bg-red-100 bg-cover bg-center relative" :style="{
       height: '300px',
