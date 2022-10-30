@@ -193,6 +193,73 @@
 
     </section>
 
+
+    <div class="py-12">
+      <div class="text-center">
+        <ui-title>FAQ</ui-title>
+      </div>
+
+      <div class="py-6 px-2 grid gap-4">
+        <ui-faq label="About this project">
+          <ui-label>Technologies</ui-label>
+           This project was made in less than 12 hours using
+          <ui-link href="https://v3.nuxtjs.org/" target="_blank">Nuxt 3</ui-link> carefully configured with <ui-link href="https://vitejs.dev/" target="_blank">Vite</ui-link> as the build tool,
+          <ui-link href="https://tailwindcss.com/" target="_blank">Tailwind CSS</ui-link>,
+          and
+          <ui-link href="https://v3.vuejs.org/" target="_blank">Vue 3</ui-link>
+          with
+          <ui-link href="https://www.typescriptlang.org/" target="_blank">Typescript</ui-link> using only the Composition API.
+          <br>
+          For the state management I used <ui-link href="https://pinia.vuejs.org/" target="_blank">Pinia</ui-link>.
+
+          <br><br>
+
+          <ui-label>Why?</ui-label>
+          I wanted to try out Nuxt 3 and Vite, and I thought it would be a good idea to make a small project with it.
+          <br>
+          I am a fast worker and I was able to finish this project in less than 12 hours. Working with completely new technologies (Nuxt 3, Pinia, Vite) was a bit challenging since a lot of errors came up, but I solved them all.
+
+          <br><br>
+
+          <ui-label>Project Bonus!</ui-label>
+          Dont forget to see the admin panel where you can edit existing items, and add new ones!
+
+          <br><br>
+
+          <ui-label>About me</ui-label>
+          My name is Fernando Muñoz, I am a 22 year old self taught developer. <br>
+          I started learning web development in 2012. At the age of 12!<br>
+          I have been programming since I was 10 years old making creative things with Batch (calendar, small text games).<br>
+          I have been learning a lot of things since then, and I am still learning new things every day.<br>
+          I know a lot about: PHP 8, Laravel 9, Python 3, Vue 3, Tailwind CSS, Google Colab, and more!<br>
+        </ui-faq>
+
+        <ui-faq label="The design was made by you?">
+          Yes. Directly on HTML and Tailwind CSS. (I didn't used figma or any other design tool)
+        </ui-faq>
+
+        <ui-faq label="Developer Contact Details">
+          <div class="grid gap-4">
+
+            <div>
+              <ui-label>Email</ui-label>
+              <div class="select-all border border-gray-300 rounded p-2">
+                shaaf4ever@gmail.com
+              </div>
+            </div>
+
+            <div>
+              <ui-label>Github</ui-label>
+              <ui-link href="https://github.com/fershopls" target="_blank">
+                https://github.com/fershopls
+              </ui-link>
+            </div>
+
+          </div>
+        </ui-faq>
+      </div>
+    </div>
+
   </container>
 </template>
 
