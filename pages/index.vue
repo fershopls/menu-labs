@@ -226,6 +226,12 @@
 
           <br><br>
 
+          <ui-label>Source code?</ui-label>
+
+          You can see the source code on <ui-link href="https://github.com/fershopls/menu-labs">Github repo here</ui-link>, just in case you want to see how clean is my code.
+
+          <br><br>
+
           <ui-label>About me</ui-label>
           My name is Fernando Muñoz, I am a 22 year old self taught developer. <br>
           I started learning web development in 2012. At the age of 12!<br>
