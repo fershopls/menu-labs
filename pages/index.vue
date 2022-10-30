@@ -206,8 +206,6 @@
 </template>
 
 <script lang="ts" setup>
-usePinia();
-
 import {useMenuStore} from "@/pages/store";
 
 const menu = useMenuStore();
