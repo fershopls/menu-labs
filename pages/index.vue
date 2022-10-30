@@ -228,7 +228,7 @@
 
           <ui-label>Source code?</ui-label>
 
-          You can see the source code on <ui-link href="https://github.com/fershopls/menu-labs">Github repo here</ui-link>, just in case you want to see how clean is my code.
+          You can see the source code on <ui-link href="https://github.com/fershopls/menu-labs" target="_blank">Github repo here</ui-link>, just in case you want to see how clean is my code.
 
           <br><br>
 
@@ -241,7 +241,7 @@
         </ui-faq>
 
         <ui-faq label="The design was made by you?">
-          Yes. Directly on HTML and Tailwind CSS. (I didn't used figma or any other design tool)
+          Yes. Directly on HTML and Tailwind CSS. (I didn't used figma or any other design tool).
         </ui-faq>
 
         <ui-faq label="Developer Contact Details">
