@@ -64,7 +64,7 @@
           {{ item.description }}
 
           <div v-if="isSelected(item.id)" class="flex items-center gap-2">
-            <div class="p-2 rounded cursor-pointer text-yellow-800 hover:text-white hover:bg-red-600 bg-yellow-500"
+            <div class="p-2 rounded cursor-pointer select-none text-yellow-800 hover:text-white hover:bg-red-600 bg-yellow-500"
                  @click.stop="unselect(item.id)">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                    stroke="currentColor" class="w-6 h-6">
@@ -175,7 +175,7 @@
           <!-- Button-->
           <div class="mt-6 grid">
             <UiButton color="green">
-                <span class="tracking-wider">
+                <span class="tracking-wider" @click="goPayment">
                   CONTINUE TO PAYMENT
                 </span>
 
@@ -244,5 +244,9 @@ const total_price = computed(() => {
 
 function goToEdit() {
   navigateTo('/edit');
+}
+
+function goPayment() {
+  alert('Order received, this time is free!! Enjoy the demo :)');
 }
 </script>
